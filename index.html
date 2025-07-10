@@ -31,8 +31,8 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-
-<div>
+<body>
+<div class="position-relative">
     <!-- Topbar Start -->
     <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
         <div class="row gx-0">
@@ -61,7 +61,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
        <a href="index.html" class="navbar-brand d-flex align-items-center p-0">
-    <img src="CDR.png" alt="CampusSetu Logo" style="height: 40px; margin-right: 10px;">
+    <img src="CDR.png" alt="CampusSetu Logo" style="height: 80px; margin-right: 10px;">
     <h1 class="m-0 text-uppercase text-primary" style="font-size: 24px;"></h1>
 </a>
 
@@ -137,135 +137,132 @@
 
     <!-- About Start -->
     <div class="container-fluid bg-secondary p-0">
-        <div class="row g-0">
-            <div class="col-lg-6 py-6 px-5">
-              <h1 class="mb-5" style="margin-top: 50px;">Welcome To <span class="text-primary">Campus Setu</span></h1>
-
-                  <h4 class="text-primary mb-4">“Campus ka raasta, seedha yahan se.”</h4>
-                <p class="mb-4">At Campus Setu, we don’t just offer courses — we build futures. As a comprehensive
-                    educational consultancy and skill development platform, we are committed to guiding students across
-                    India toward academic success, skill enhancement, and professional growth. Whether you are a school
+    <div class="row g-0">
+        <!-- Left Column -->
+        <div class="col-lg-6 d-flex align-items-center">
+            <div class="w-100 p-5">
+                <h1 class="mb-5 mt-4">Welcome To <span class="text-primary">Campus Setu</span></h1>
+                <h4 class="text-primary mb-4">“Campus ka raasta, seedha yahan se.”</h4>
+                <p class="mb-4">
+                    At Campus Setu, we don’t just offer courses — we build futures. As a comprehensive educational
+                    consultancy and skill development platform, we are committed to guiding students across India
+                    toward academic success, skill enhancement, and professional growth. Whether you are a school
                     dropout, a recent graduate, or someone looking to upskill — Campus Setu is your trusted bridge to a
                     brighter tomorrow.
                 </p>
-                <a href="" class="btn btn-primary py-md-3 px-md-5 rounded-pill">Get A Quote</a>
+                <a href="#" class="btn btn-primary py-md-3 px-md-5 rounded-pill">Get A Quote</a>
             </div>
-            <div class="col-lg-6">
-                <div class="h-100 d-flex flex-column justify-content-center bg-primary p-5">
-                    <div class="d-flex text-white mb-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-user-tie fs-4"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h3> Undergraduate (UG) Courses </h3>
-                           <!-- <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem
-                                et sit sed stet lorem sit clita duo</p>-->
-                        </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-lg-6 d-flex align-items-center">
+            <div class="w-100 h-100 d-flex flex-column justify-content-center bg-primary p-5">
+                <div class="d-flex text-white mb-5">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle me-3"
+                        style="width: 60px; height: 60px;">
+                        <i class="fa fa-user-tie fs-4"></i>
                     </div>
-                    <div class="d-flex text-white mb-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-chart-line fs-4"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h3> Postgraduate (PG) Courses</h3>
-                          <!--  <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem
-                                et sit sed stet lorem sit clita duo</p>-->
-                        </div>
+                    <div>
+                        <h3>Undergraduate (UG) Courses</h3>
                     </div>
-                    <div class="d-flex text-white">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-balance-scale fs-4"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h3>10th & 12th (National Open Board)</h3>
-                          <!--  <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem
-                                et sit sed stet lorem sit clita duo</p>-->
-                        </div>
+                </div>
+
+                <div class="d-flex text-white mb-5">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle me-3"
+                        style="width: 60px; height: 60px;">
+                        <i class="fa fa-chart-line fs-4"></i>
+                    </div>
+                    <div>
+                        <h3>Postgraduate (PG) Courses</h3>
+                    </div>
+                </div>
+
+                <div class="d-flex text-white">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle me-3"
+                        style="width: 60px; height: 60px;">
+                        <i class="fa fa-balance-scale fs-4"></i>
+                    </div>
+                    <div>
+                        <h3>10th & 12th (National Open Board)</h3>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
     <!-- About End -->
 
 
     <!-- Services Start -->
-    <div class="container-fluid pt-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 mb-0">What We Offer</h1>
-            <hr class="w-25 mx-auto bg-primary">
+   <div class="container-fluid pt-6 px-5 mt-4">
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h1 class="display-5 mb-0">What We Offer</h1>
+        <hr class="w-25 mx-auto bg-primary">
+    </div>
+    <div class="row g-5">
+        <div class="col-lg-4 col-md-6 h-120">
+            <div class="service-item bg-secondary text-center px-5 d-flex flex-column h-100">
+                <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                    <i class="fa fa-user-tie fa-2x"></i>
+                </div>
+                <h3 class="mb-3">University-Recognized Courses</h3>
+                <p class="mb-0 mt-auto">Degrees from trusted names like MDU Rohtak & PGIMS, ensuring your education is valid and respected.</p>
+            </div>
         </div>
-        <div class="row g-5">
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4"
-                        style="width: 90px; height: 90px;">
-                        <i class="fa fa-user-tie fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3">University-Recognized Courses</h3>
-                    <p class="mb-0">Degrees from trusted names like MDU Rohtak & PGIMS, ensuring your education is valid and respected.</p>
+        <div class="col-lg-4 col-md-6 h-120">
+            <div class="service-item bg-secondary text-center px-5 d-flex flex-column h-100">
+                <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                    <i class="fa fa-chart-pie fa-2x"></i>
                 </div>
+                <h3 class="mb-3">Power-Packed Computer Programs</h3>
+                <p class="mb-0 mt-auto">Learn career-building skills: Digital Marketing, AutoCAD, Advanced Excel, and more — all under one roof.</p>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4"
-                        style="width: 90px; height: 90px;">
-                        <i class="fa fa-chart-pie fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3">Power-Packed Computer Programs</h3>
-                    <p class="mb-0">Learn career-building skills: Digital Marketing, AutoCAD, Advanced Excel, and more — all under one roof.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 h-120">
+            <div class="service-item bg-secondary text-center px-5 d-flex flex-column h-100">
+                <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                    <i class="fa fa-chart-line fa-2x"></i>
                 </div>
+                <h3 class="mb-3">Placement Guarantee</h3>
+                <p class="mb-0 mt-auto">100% placement support to help you land your first job with confidence.</p>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4"
-                        style="width: 90px; height: 90px;">
-                        <i class="fa fa-chart-line fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3"> Placement Guarantee</h3>
-                    <p class="mb-0">100% placement support to help you land your first job with confidence.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 h-120">
+            <div class="service-item bg-secondary text-center px-5 d-flex flex-column h-100">
+                <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                    <i class="fa fa-chart-area fa-2x"></i>
                 </div>
+                <h3 class="mb-3">Budget-Friendly Fees</h3>
+                <p class="mb-0 mt-auto">Top-tier education at prices like ₹30,000 to ₹65,000 per year — no hidden charges, no stress.</p>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4"
-                        style="width: 90px; height: 90px;">
-                        <i class="fa fa-chart-area fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3"> Budget-Friendly Fees</h3>
-                    <p class="mb-0">Top-tier education at prices like ₹30,000 to ₹65,000 per year — no hidden charges, no stress.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 h-120">
+            <div class="service-item bg-secondary text-center px-5 d-flex flex-column h-100">
+                <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                    <i class="fa fa-balance-scale fa-2x"></i>
                 </div>
+                <h3 class="mb-3">No Entrance Needed</h3>
+                <p class="mb-0 mt-auto">Just 12th pass? You're eligible! Especially for Pharma & DMLT courses — simple, fast admissions.</p>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4"
-                        style="width: 90px; height: 90px;">
-                        <i class="fa fa-balance-scale fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3"> No Entrance Needed</h3>
-                    <p> class="mb-0"Just 12th pass? You're eligible! Especially for Pharma & DMLT courses — simple, fast admissions.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 h-120">
+            <div class="service-item bg-secondary text-center px-5 d-flex flex-column h-100">
+                <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                    <i class="fa fa-house-damage fa-2x"></i>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4"
-                        style="width: 90px; height: 90px;">
-                        <i class="fa fa-house-damage fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3"> Delhi-Based Campus Advantage</h3>
-                    <p class="mb-0">Situated at Nangloi, Najafgarh Road, easily accessible with full city connectivity.</p>
-                </div>
+                <h3 class="mb-3">Delhi-Based Campus Advantage</h3>
+                <p class="mb-0 mt-auto">Situated at Nangloi, Najafgarh Road, easily accessible with full city connectivity.</p>
             </div>
         </div>
     </div>
+</div>
+
     <!-- Services End -->
 
 
     <!-- Features Start -->
-    <div class="container-fluid py-6 px-5">
+    <div class="container-fluid py-6 px-5 mt-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h1 class="display-5 mb-0">Why Choose Us!!!</h1>
             <hr class="w-25 mx-auto bg-primary">
@@ -342,7 +339,7 @@
 
 
     <!-- Quote Start -->
-    <div class="container-fluid bg-secondary px-0">
+    <div class="container-fluid bg-secondary px-4 py-5">
         <div class="row g-0">
             <div class="col-lg-6 py-6 px-5">
                 <h1 class="display-5 mb-4">Request A Free Quote</h1>
@@ -622,8 +619,13 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+<div>
+        <a href="#" 
+   class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" 
+   style="position: fixed; bottom: 30px; right: 30px; z-index: 9999;">
+    <i class="bi bi-arrow-up"></i>
+</a>
+</div>
 
 
     <!-- JavaScript Libraries -->
