@@ -1,0 +1,15 @@
+.modal-content {
+  border-radius: 20px;
+  padding: 20px;
+  background: #fff;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.btn-success {
+  background: #28a745;
+  border: none;
+  font-weight: 500;
+}

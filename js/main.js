@@ -66,5 +66,15 @@
   };
 </script>
 
+document.getElementById("popupForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  document.getElementById("popupForm").classList.add("d-none");
+  document.getElementById("thankYouMessage").classList.remove("d-none");
+});
+
  
 
+document.addEventListener('DOMContentLoaded', function () {
+  const myModal = new bootstrap.Modal(document.getElementById('welcomePopup'));
+  myModal.show();
+});
