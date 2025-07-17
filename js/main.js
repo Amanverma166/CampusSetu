@@ -61,7 +61,7 @@
 <script>
   function downloadBrochure() {
     // PDF file must be in same folder as this HTML
-    window.location.href = 'pdfs/CampusSetu_Brochure_Demo.pdf'
+    window.location.href = 'pdfs/final.pdf'
 
   };
 </script>

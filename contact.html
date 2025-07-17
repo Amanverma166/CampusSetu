@@ -82,6 +82,7 @@
     <div class="dropdown-menu m-0">
         <a href="ugpg.html" class="dropdown-item">UG/PG Courses</a>
         <a href="computer.html" class="dropdown-item">Computer Courses</a>
+        <a href="schoolling.html" class="dropdown-item">schooling</a>
     </div>
 </div>
 
@@ -117,32 +118,36 @@
     <div class="col-lg-8 col-md-10 py-6 px-5">
       <h1 class="display-5 mb-4 text-center">Contact For Any Queries</h1>
 
-    <form action="https://formspree.io/f/xqalkywo" method="POST" id="contactform">
+    <form action="https://formspree.io/f/xqalkywo" method="POST" id="contactform" autocomplete="off">
   <!-- Hidden fields for better email formatting -->
   <input type="hidden" name="_subject" value="New Contact Query from Campus Setu">
   <input type="hidden" name="_format" value="plain">
 
   <div class="row g-3">
+
     <!-- Full Name -->
     <div class="col-md-6">
       <div class="form-floating">
-        <input type="text" class="form-control" name="name" id="form-floating-1" placeholder="John Doe" required>
+        <input type="text" class="form-control" name="name" id="form-floating-1" placeholder="John Doe"
+               required pattern="[A-Za-z\s]+" title="Only alphabets and spaces allowed" inputmode="text" autocomplete="off">
         <label for="form-floating-1">Full Name</label>
       </div>
     </div>
 
-    <!-- Email Address -->
+    <!-- Mobile Number -->
     <div class="col-md-6">
       <div class="form-floating">
-        <input type="email" class="form-control" name="email" id="form-floating-2" placeholder="name@example.com" required>
-        <label for="form-floating-2">Email address</label>
+        <input type="tel" class="form-control" name="mobile" id="form-floating-2" placeholder="Enter your mobile number"
+               required pattern="\d{10}" maxlength="10" title="Enter a valid 10-digit number only"
+               inputmode="numeric" autocomplete="off">
+        <label for="form-floating-2">Mobile Number</label>
       </div>
     </div>
 
     <!-- Subject -->
     <div class="col-12">
       <div class="form-floating">
-        <input type="text" class="form-control" name="subject" id="form-floating-3" placeholder="Subject" required>
+        <input type="text" class="form-control" name="subject" id="form-floating-3" placeholder="Subject" required autocomplete="off">
         <label for="form-floating-3">Subject</label>
       </div>
     </div>
@@ -150,7 +155,8 @@
     <!-- Message -->
     <div class="col-12">
       <div class="form-floating">
-        <textarea class="form-control" name="message" placeholder="Leave your message here" id="form-floating-4" style="height: 150px" required></textarea>
+        <textarea class="form-control" name="message" placeholder="Leave your message here" id="form-floating-4"
+                  style="height: 150px" required autocomplete="off"></textarea>
         <label for="form-floating-4">Message</label>
       </div>
     </div>
@@ -159,8 +165,10 @@
     <div class="col-12 mb-5">
       <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
     </div>
+
   </div>
 </form>
+
 
 
     </div>
