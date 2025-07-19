@@ -61,7 +61,7 @@
 <script>
   function downloadBrochure() {
     // PDF file must be in same folder as this HTML
-    window.location.href = 'pdfs/final.pdf'
+    window.location.href = 'pdfs/Campussetu_Fees_Structure.pdf'
 
   };
 </script>
