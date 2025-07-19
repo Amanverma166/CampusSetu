@@ -78,3 +78,25 @@ document.addEventListener('DOMContentLoaded', function () {
   const myModal = new bootstrap.Modal(document.getElementById('welcomePopup'));
   myModal.show();
 });
+
+window.addEventListener('load', function () {
+  const popup = new bootstrap.Modal(document.getElementById('enquiryModal'));
+  popup.show();
+});
+
+document.getElementById('enquiryForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const name = document.getElementById('name').value.trim();
+  const phone = document.getElementById('phone').value.trim();
+  const course = document.getElementById('course').value;
+  const message = document.getElementById('message').value.trim();
+
+  alert(`Thank you ${name}! We'll contact you soon.`);
+
+  const modalEl = document.getElementById('enquiryModal');
+  const modal = bootstrap.Modal.getInstance(modalEl);
+  modal.hide();
+
+  this.reset();
+});
