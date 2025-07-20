@@ -112,25 +112,62 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPDTM87Z" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <!-- 📦 Fullscreen Modal on Page Load -->
-    <div class="modal fade" id="homePageModal" tabindex="-1" aria-labelledby="homePageModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content bg-dark text-white position-relative">
-                <div class="modal-body d-flex flex-column justify-content-center align-items-center text-center p-5">
-                    <!-- ❌ Close Button -->
-                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
-                        data-bs-dismiss="modal" aria-label="Close"></button>
+   <!-- 🔐 Registration Modal -->
+<div class="modal fade" id="homePageModal" tabindex="-1" aria-labelledby="homePageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content border-0 rounded-4 shadow">
+      <div class="modal-body p-5 position-relative">
 
-                    <!-- 📝 Your Modal Content Here -->
-                    <h2 class="mb-3">Welcome to CampusSetu 🎓</h2>
-                    <p class="lead mb-4">India’s Most Affordable Learning Hub. Start your journey today!</p>
-                    <a href="brochure.pdf" class="btn btn-primary rounded-pill px-4 py-2">Download Brochure</a>
-                </div>
+        <!-- ❌ Close Button -->
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        <!-- 🎓 Header -->
+        <h3 class="text-center mb-3 fw-bold">Register at CampusSetu</h3>
+        <p class="text-center text-muted mb-4">Get Direct Admission Assistance & 100% Placement Courses</p>
+
+        <!-- 🧾 Registration Form -->
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Full Name" required>
             </div>
-        </div>
-    </div>
+            <div class="col-md-6">
+              <input type="tel" class="form-control" placeholder="Mobile Number" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" placeholder="Email Address" required>
+            </div>
+            <div class="col-md-6">
+              <select class="form-select" required>
+                <option selected disabled value="">Select Course</option>
+                <option>BA</option>
+                <option>B.Com</option>
+                <option>B.Ed</option>
+                <option>M.Ed</option>
+                <option>DMLT</option>
+                <option>Pharmacy</option>
+              </select>
+            </div>
 
-    <div class="position-relative">
+            <!-- ✅ Matching Buttons -->
+            <div class="col-md-6 d-grid mt-4">
+              <button type="submit" class="btn btn-danger btn-lg rounded-pill">
+                Register Now
+              </button>
+            </div>
+            <div class="col-md-6 d-grid mt-4">
+              <a href="Campussetu_Fees_Structure.pdf" download class="btn btn-danger btn-lg rounded-pill">
+                 Download Brochure
+              </a>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
         <!-- Topbar Start 
     <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
         <div class="row gx-0">
@@ -782,27 +819,32 @@
 
                         <!-- Quick Links (Left) -->
                         <!-- Quick Links (Left) -->
-<div class="col-lg-4 col-md-6 text-center text-md-start">
-    <h3 class="text-white mb-4">Quick Links</h3>
-    <div class="d-flex flex-column justify-content-start align-items-center align-items-md-start">
-        <a href="index.html" class="text-secondary mb-2 d-flex align-items-center" style="min-width: 120px;">
-            <span class="d-inline-block text-primary" style="width: 20px;">→</span>
-            <span class="ms-2">Home</span>
-        </a>
-        <a href="about.html" class="text-secondary mb-2 d-flex align-items-center" style="min-width: 120px;">
-            <span class="d-inline-block text-primary" style="width: 20px;">→</span>
-            <span class="ms-2">About</span>
-        </a>
-        <a href="computer.html" class="text-secondary mb-2 d-flex align-items-center" style="min-width: 120px;">
-            <span class="d-inline-block text-primary" style="width: 20px;">→</span>
-            <span class="ms-2">Courses</span>
-        </a>
-        <a href="contact.html" class="text-secondary d-flex align-items-center" style="min-width: 120px;">
-            <span class="d-inline-block text-primary" style="width: 20px;">→</span>
-            <span class="ms-2">Contact</span>
-        </a>
-    </div>
-</div>
+                        <div class="col-lg-4 col-md-6 text-center text-md-start">
+                            <h3 class="text-white mb-4">Quick Links</h3>
+                            <div
+                                class="d-flex flex-column justify-content-start align-items-center align-items-md-start">
+                                <a href="index.html" class="text-secondary mb-2 d-flex align-items-center"
+                                    style="min-width: 120px;">
+                                    <span class="d-inline-block text-primary" style="width: 20px;">→</span>
+                                    <span class="ms-2">Home</span>
+                                </a>
+                                <a href="about.html" class="text-secondary mb-2 d-flex align-items-center"
+                                    style="min-width: 120px;">
+                                    <span class="d-inline-block text-primary" style="width: 20px;">→</span>
+                                    <span class="ms-2">About</span>
+                                </a>
+                                <a href="computer.html" class="text-secondary mb-2 d-flex align-items-center"
+                                    style="min-width: 120px;">
+                                    <span class="d-inline-block text-primary" style="width: 20px;">→</span>
+                                    <span class="ms-2">Courses</span>
+                                </a>
+                                <a href="contact.html" class="text-secondary d-flex align-items-center"
+                                    style="min-width: 120px;">
+                                    <span class="d-inline-block text-primary" style="width: 20px;">→</span>
+                                    <span class="ms-2">Contact</span>
+                                </a>
+                            </div>
+                        </div>
 
 
                         <!-- Get In Touch (Center) -->
