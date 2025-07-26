@@ -3,58 +3,52 @@
 
 <head>
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
+    <script>
+        (function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
+                'gtm.start': new Date().getTime(), event: 'gtm.js'
             }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PPDTM87Z');</script>
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PPDTM87Z');
+    </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ✅ Updated SEO-friendly Meta -->
     <title>Campus Setu | Campus Ka Raasta Seedha Yahan Se</title>
-    <link rel="icon" type="image/x-icon" href="brochureimg.png">
+    <meta name="keywords" content="Campus Setu, Admission, Distance Education, Courses, Career Guidance" />
+    <meta name="description"
+        content="Campus Setu is your bridge to the right career. Explore distance education, regular UG/PG courses, and more." />
 
-
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <a href="https://www.flaticon.com/free-icons/partners" title="partners icons"></a>
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Add this in <head> section -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-
-
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
+    <!-- ✅ Favicon (make sure this image exists) -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="preload" as="style"
         href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+        onload="this.onload=null;this.rel='stylesheet';">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap">
+    </noscript>
 
 
+    <!-- ✅ Font Awesome (Keep only latest) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
 
+    <!-- ✅ Bootstrap Icons (Use only latest one) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- ✅ Libraries CSS (only include if used on page) 
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" /> -->
+
+    <!-- ✅ Your Custom Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
 </head>
+
 <style>
     /* Mobile-only styles */
     @media (max-width: 767.98px) {
@@ -202,7 +196,8 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-gradient navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center p-0">
-            <img src="CDR.png" alt="CampusSetu Logo" style="height: 80px; margin-right: 10px;">
+            <img src="CDR.webp" alt="CampusSetu Logo" loading="lazy" style="height: 80px; margin-right: 10px;">
+
             <h1 class="m-0 text-uppercase text-primary" style="font-size: 24px;"></h1>
         </a>
 
@@ -241,7 +236,7 @@
 
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
-                    <img class="w-100" src="2.webp"
+                    <img class="w-100" src="2.webp" loading="lazy"
                         alt="Students collaborating and studying together around a laptop in a classroom environment"
                         style="height: 500px; object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center"
@@ -263,7 +258,7 @@
 
                 <!-- Slide 2 -->
                 <div class="carousel-item">
-                    <img class="w-100" src="3.webp"
+                    <img class="w-100" src="3.webp" loading="lazy"
                         alt="Confident student giving a presentation in front of classmates in a modern classroom"
                         style="height: 500px; object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -289,7 +284,7 @@
 
                 <!-- ✅ Slide 3 -->
                 <div class="carousel-item">
-                    <img class="w-100" src="1.webp"
+                    <img class="w-100" src="1.webp" loading="lazy"
                         alt="Student walking outside a modern educational campus building with books and backpack"
                         style="height: 500px; object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -315,7 +310,7 @@
 
                 <!-- ✅ Slide 4 -->
                 <div class="carousel-item">
-                    <img class="w-100" src="4.webp"
+                    <img class="w-100" src="4.webp" loading="lazy"
                         alt="Campus Setu entrance with student walking in and red institute signage prominently visible"
                         style="height: 500px; object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -547,7 +542,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="d-block bg-primary h-100 text-center">
-                            <img class="img-fluid" src="learn2.jpg" alt="">
+                            <img class="img-fluid" loading="lazy" src="learn2.webp" alt="">
                             <div class="p-4">
                                 <p class="text-white mb-4">To make quality education and job-ready skills
                                     accessible, affordable, and achievable for every learner in India — no matter
